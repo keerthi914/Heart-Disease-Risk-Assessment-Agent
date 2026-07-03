@@ -5,8 +5,8 @@ import numpy as np
 # ---------------------------------
 # Load Model and Scaler
 # ---------------------------------
-model = pickle.load(open("heart_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+model = pickle.load(open("heart_model.pkl"))
+scaler = pickle.load(open("scaler.pkl"))
 
 # ---------------------------------
 # Page Configuration
